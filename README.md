@@ -1,27 +1,43 @@
-# BaaderAngularApp
+# ANGULAR PROJECT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Welcome! This README will guide you through the process of running the project for the first time.
 
-## Development server
+## Prerequisites
+Before you begin, make sure you have the following installed on your machine:
+- **Node.js and npm**: You can download and install Node.js from [nodejs.org](https://nodejs.org/).
+- **Angular CLI**: Install Angular CLI globally using npm:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```bash
+npm install -g @angular/cli
+```
 
-## Code scaffolding
+## Running the project
+To run the project, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository to your local machine:
 
-## Build
+```bash
+git clone https://github.com/firasghribi/angular-project/
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
 
-## Running unit tests
+```bash
+cd angular-project
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Install the project dependencies:
 
-## Running end-to-end tests
+```bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Start the development server:
 
-## Further help
+```bash
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Open your browser and navigate to `http://localhost:4200/` to view the project.
+
+That's it! You have successfully set up and run the project on your local machine. If you have any questions or encounter any issues, feel free to reach out to us.
