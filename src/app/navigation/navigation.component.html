@@ -1,0 +1,22 @@
+<!--
+    This HTML code represents the template for the navigation component.
+    It contains a navigation bar with a list of items that can be clicked to navigate to different pages.
+-->
+
+<div class="h-screen">
+    <nav class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 h-screen">
+        <div class="flex h-16 shrink-0 items-center">
+            <h1 class="text-2xl font-bold">Dashboard</h1>
+        </div>
+        <nav class="flex flex-1 flex-col">
+            <ul role="list" class="-mx-2 space-y-2">
+                <li *ngFor="let item of navigationItems">
+                    <a [routerLink]="item.href" routerLinkActive="bg-gray-950 text-white"
+                        class="group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
+                        {{ item.name }}
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+</div>

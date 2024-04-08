@@ -1,0 +1,14 @@
+<!-- This HTML template represents the products component. It displays a header, loading message, and a table of products. -->
+
+<app-header></app-header>
+
+<!-- Display a loading message if data is being fetched -->
+<div *ngIf="isFetchingData">Loading...</div>
+
+<!-- Display a message if there are no products found -->
+<div *ngIf="!isFetchingData && products.length === 0">No products found</div>
+
+<!-- Display the table of products if data is not being fetched -->
+<div *ngIf="!isFetchingData">
+    <app-table [data]="products" [columns]="columns"></app-table>
+</div>
